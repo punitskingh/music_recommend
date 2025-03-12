@@ -9,7 +9,6 @@ load_dotenv()
 CLIENT_ID = os.getenv("CLIENT_ID")
 CLIENT_SECRET= os.getenv("CLIENT_SECRET")
 
-# Initialize the Spotify client
 client_credentials_manager = SpotifyClientCredentials(
     client_id=CLIENT_ID, client_secret=CLIENT_SECRET
 )
